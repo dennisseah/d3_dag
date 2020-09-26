@@ -1,0 +1,35 @@
+.node {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    fill: #333;
+}
+
+.node:hover {
+    cursor: pointer;
+}
+
+.link {
+    stroke: #666;
+    stroke-opacity: .6;
+    stroke-width: 2px;
+}
+
+.edgelabel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    fill: #333;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 32px;
+    padding: 4px;
+    font: 12px sans-serif;
+    background: black;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    color: white;
+}
